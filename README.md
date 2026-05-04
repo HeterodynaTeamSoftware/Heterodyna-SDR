@@ -47,3 +47,5 @@ wizualizacja danych w czasie rzeczywistym
 ⚠️ Informacje
 
 Projekt rozwijany eksperymentalnie. Część funkcji może być w trakcie implementacji lub testów.
+
+![UI](screenshots/main-ui.png)
