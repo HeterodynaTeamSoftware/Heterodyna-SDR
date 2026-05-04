@@ -76,10 +76,12 @@ Jeśli projekt jest dla Ciebie przydatny — możesz wesprzeć jego rozwój 💙
 
 ### 💳 Revolut
 👉 https://revolut.me/adrian00qj  
+
 Tytuł: `Heterodyna SDR`
 
 ### 📱 BLIK
 👉 Numer: +48 516 524 708
+
 Tytuł: `Heterodyna SDR`
 
 
