@@ -23,15 +23,25 @@ Główne funkcje
 
 
 🧪 Zastosowania:
+
 analiza pasma radiowego
+
 nasłuch i eksperymenty SDR
+
 edukacja i badania RF
+
 wykrywanie emisji (np. FPV, transmisje cyfrowe)
+
 diagnostyka środowiska radiowego
+
 ⚙️ Technologie
+
 .NET / C# (desktop GUI)
+
 integracja z SDR (RTL-SDR / DLL / sterowniki)
+
 przetwarzanie sygnałów (DSP)
+
 wizualizacja danych w czasie rzeczywistym
 
 ⚠️ Informacje
