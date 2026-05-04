@@ -48,6 +48,8 @@ wizualizacja danych w czasie rzeczywistym
 
 Projekt rozwijany eksperymentalnie. Część funkcji może być w trakcie implementacji lub testów.
 
+## 📸 Podgląd aplikacji
+
 <p align="center">
   <img src="screenshots/Heterodyna%20SDR.png" width="900"/>
 </p>
