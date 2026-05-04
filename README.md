@@ -48,6 +48,21 @@ wizualizacja danych w czasie rzeczywistym
 
 Projekt rozwijany eksperymentalnie. Część funkcji może być w trakcie implementacji lub testów.
 
+## ⚙️ Wymagania
+
+- Windows 10/11 64 Bit
+- RTL-SDR (np. RTL-SDR V3)
+
+## 🔧 Sterowniki
+
+Aplikacja posiada wbudowany mechanizm instalacji sterowników (Zadig / WinUSB).
+
+➡️ W większości przypadków wystarczy użyć opcji instalacji w aplikacji.
+
+⚠️ Jeśli instalacja automatyczna nie zadziała:
+- użyj Zadig ręcznie
+- ustaw sterownik WinUSB dla urządzenia RTL-SDR
+
 ## 📸 Podgląd aplikacji
 
 <p align="center">
