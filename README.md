@@ -52,6 +52,7 @@ Projekt rozwijany eksperymentalnie. Część funkcji może być w trakcie implem
 
 - Windows 10/11 64 Bit
 - RTL-SDR (np. RTL-SDR V3)
+- .NET Runtime (wymagany)
 
 ## 🔧 Sterowniki
 
