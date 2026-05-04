@@ -70,4 +70,16 @@ Aplikacja posiada wbudowany mechanizm instalacji sterowników (Zadig / WinUSB).
   <img src="screenshots/Heterodyna%20SDR.png" width="900"/>
 </p>
 
+## ☕ Wsparcie projektu
+
+Jeśli projekt jest dla Ciebie przydatny — możesz wesprzeć jego rozwój 💙
+
+### 💳 Revolut
+👉 https://revolut.me/TWOJ_LINK
+
+### 📱 BLIK
+👉 Numer: +48 516 524 708
+Tytuł: `Heterodyna SDR`
+
+### 📱 Revolut
 [![Support](https://img.shields.io/badge/Support-Project-blue)](https://revolut.me/TWOJ_LINK)
