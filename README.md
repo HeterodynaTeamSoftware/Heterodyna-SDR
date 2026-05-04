@@ -84,4 +84,9 @@ Tytuł: `Heterodyna SDR`
 
 Tytuł: `Heterodyna SDR`
 
+### 🙌 Dlaczego warto?
+Wsparcie pomaga rozwijać:
+- nowe funkcje SDR  
+- stabilność aplikacji  
 
+Dzięki za każde wsparcie 🚀
