@@ -81,5 +81,4 @@ Jeśli projekt jest dla Ciebie przydatny — możesz wesprzeć jego rozwój 💙
 👉 Numer: +48 516 524 708
 Tytuł: `Heterodyna SDR`
 
-### 📱 Revolut
-[![Support](https://img.shields.io/badge/Support-Project-blue)](https://revolut.me/TWOJ_LINK)
+
