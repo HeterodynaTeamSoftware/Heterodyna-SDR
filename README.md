@@ -48,4 +48,6 @@ wizualizacja danych w czasie rzeczywistym
 
 Projekt rozwijany eksperymentalnie. Część funkcji może być w trakcie implementacji lub testów.
 
-![UI](screenshots/Heterodyna%20SDR.png)
+<p align="center">
+  <img src="screenshots/heterodyna-sdr.png" width="900"/>
+</p>
