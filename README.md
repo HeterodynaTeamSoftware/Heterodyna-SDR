@@ -69,3 +69,5 @@ Aplikacja posiada wbudowany mechanizm instalacji sterowników (Zadig / WinUSB).
 <p align="center">
   <img src="screenshots/Heterodyna%20SDR.png" width="900"/>
 </p>
+
+[![Support](https://img.shields.io/badge/Support-Project-blue)](https://revolut.me/TWOJ_LINK)
