@@ -18,7 +18,7 @@ https://github.com/HeterodynaTeamSoftware/Heterodyna-SDR
 
 ## Licencja — GNU GPL v3
 
-**Kod źródłowy Protocol Lab jest udostępniany przez Heterodyna Team Software na warunkach GNU General Public License, wersja 3 (`GPL-3.0-only`).** Pełny tekst znajduje się w [LICENSE](LICENSE).
+**Kod źródłowy Protocol Lab jest udostępniany przez Heterodyna Team Software na warunkach GNU General Public License, wersja 3 (`GPL-3.0-only`).** Plik [LICENSE](LICENSE) zawiera identyfikator SPDX, informację licencyjną i odnośnik do oficjalnego pełnego tekstu GNU GPL v3.
 
 Copyright (c) 2026 Heterodyna Team Software — w zakresie przysługujących praw autorskich.
 
