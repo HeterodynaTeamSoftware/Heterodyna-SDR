@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AssemblyName>Heterodyna.ProtocolLab</AssemblyName>
+    <RootNamespace>Heterodyna.ProtocolLab</RootNamespace>
+    <Version>0.3.3</Version>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Core/**/*.cs" />
+    <Compile Remove="Tests/**/*.cs" />
+    <Compile Remove="RfAdapter/**/*.cs" />
+    <ProjectReference Include="Core/Heterodyna.ProtocolLab.Core.csproj" />
+  </ItemGroup>
+</Project>

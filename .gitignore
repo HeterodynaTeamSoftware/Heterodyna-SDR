@@ -1,0 +1,35 @@
+# Wytwory kompilacji .NET / Visual Studio
+**/bin/
+**/obj/
+**/build-logs/
+**/TestResults/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.pdb
+*.exe
+*.dll
+*.appx
+*.msix
+*.nupkg
+# prywatne dane i nagrania SDR
+/recordings/
+/iq_records/
+/data/
+*.iq
+*.wav
+*.raw
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.jsonl
+# tajne dane i konfiguracje lokalne
+.env
+.env.*
+*.key
+*.pfx
+*.pem
+secrets*.json

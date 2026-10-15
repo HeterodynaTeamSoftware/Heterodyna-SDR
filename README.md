@@ -90,3 +90,13 @@ Wsparcie pomaga rozwijać:
 - stabilność aplikacji  
 
 Dzięki za każde wsparcie 🚀
+
+
+## 💻 Kod źródłowy / Source code
+
+Kod źródłowy **Protocol Lab 0.3.3 dla Windows** jest publiczny i udostępniony na licencji **GNU GPL v3 (GPL-3.0-only)**.
+
+➡️ [Źródła i informacje o kompilacji](README_SOURCE_PL.md)  
+➡️ [Instrukcja kompilacji Windows](INSTRUKCJA_KOMPILACJI_WINDOWS.md)
+
+> Uwaga: opublikowane źródła dotyczą modułu Protocol Lab. Starszy pakiet głównego `HeterodynaSDRScanner.exe v01.001.0062` zawierał jego pliki binarne, ale nie komplet źródeł głównej aplikacji.

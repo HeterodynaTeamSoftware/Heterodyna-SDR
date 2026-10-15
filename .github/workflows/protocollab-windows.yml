@@ -1,0 +1,36 @@
+name: Protocol Lab - Windows source build
+
+on:
+  push:
+    paths:
+      - 'ProtocolLab/**'
+      - '.github/workflows/protocollab-windows.yml'
+  pull_request:
+    paths:
+      - 'ProtocolLab/**'
+      - '.github/workflows/protocollab-windows.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Core tests
+        run: dotnet run --project ProtocolLab/Tests/Heterodyna.ProtocolLab.Tests.csproj -c Release
+      - name: RF adapter synthetic selftest
+        run: dotnet run --project ProtocolLab/RfAdapter/Heterodyna.ProtocolLab.RfAdapter.csproj -c Release -- --selftest
+      - name: Restore GUI runtime
+        run: dotnet restore ProtocolLab/Heterodyna.ProtocolLab.csproj -r win-x64
+      - name: Build GUI (Windows x64)
+        run: dotnet publish ProtocolLab/Heterodyna.ProtocolLab.csproj -c Release -r win-x64 --no-restore --self-contained false -p:PublishSingleFile=true -o ProtocolLab/bin/Release/publish
+      - name: Build RF adapter (Windows x64)
+        run: dotnet publish ProtocolLab/RfAdapter/Heterodyna.ProtocolLab.RfAdapter.csproj -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -o ProtocolLab/RfAdapter/bin/Release/publish
+# Workflow verifies build + synthetic tests. It does not test real SDR hardware or GUI clicks.
